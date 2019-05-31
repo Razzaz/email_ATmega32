@@ -5,3 +5,4 @@ Perangkat yang diberi nama “Online Attendance System” ini bekerja sesuai den
 Proses identifikasi input yang terdaftar atau tidaknya dilakukan oleh microcontroller ATmega32. ATmega32 akan mengirimkan hasil identifikasi tersebut melalui komunikasi serial ke ESP8266. ESP8266 kemudian akan mengirimkan hasil identifikasi tersebut ke client dalam bentuk email. Supaya perangkat tersebut dapat mengirimkan email, kami menggunakan protokol SMTP dengan memanfaatkan API SMTP2Go. SMTP itu sendiri merupakan simple mail transfer protocol yang berfungsi untuk mengirimkan pesan agar tepat waktu dan efisien kepada penerima. SMTP memberi perintah untuk mengontrol negosiasi dan transmisi melalui koneksi data stream Transfer Control Protocol (TCP).
 
 ## Diagram Rangkaian
+![Navigate](https://github.com/Razzaz/email_atmega32/raw/master/circuit_diagram.SVG)
